@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 960px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 36px;
+            color: #002f4b;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 28px;
+            color: #002f4b;
+            margin-top: 20px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <!--HEAD com informações básicas-->
+    <div class="bg-light py-2">
+        <div class="container d-flex justify-content-between align-items-center">
+          <div>
+            <i class="bi bi-envelope"></i> PetShop@gmail.com
+            <i class="bi bi-telephone"></i> (47)99686-2450
+          </div>
+          <div>
+            <span class="me-3">PT.BR <i class="bi bi-chevron-down"></i></span>
+            <span class="me-3">BRL <i class="bi bi-chevron-down"></i></span>
+            <span class="me-3"><i class="bi bi-person"></i> Login</span>
+            <span class="me-3"><i class="bi bi-heart"></i></span>
+            <span><i class="bi bi-cart"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navbar com bootstrap-->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"id="navbar-brand-petshop">PetShop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="produtosserviços.html">Produtos e Serviços</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="agendamento.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Agendamento de serviços
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="agendamento.html">Banho e tosa</a></li>
+                  <li><a class="dropdown-item" href="agendamento.html">Veterinário</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="agendamento.html">Castração</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="formulario.html">Cadastro cliente e Pet</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <h1>Sobre Nós</h1>
+    
+        <p>Bem-vindo ao <strong>PetShop</strong>, onde a paixão pelos animais e a excelência no atendimento se encontram. Desde o nosso início, nosso objetivo sempre foi claro: fornecer cuidados de qualidade e produtos especializados para os pets que amamos, ajudando-os a viver vidas felizes, saudáveis e cheias de energia.</p>
+    
+        <h2>Quem Somos</h2>
+        <p>Fundado em [ano de fundação], o <strong>PetShop</strong> começou como um pequeno projeto, nascido do amor incondicional pelos animais. Ao longo dos anos, crescemos e nos tornamos um dos principais PetShops da região, oferecendo uma ampla variedade de produtos e serviços que atendem às necessidades específicas de cães, gatos e outros animais de estimação.</p>
+    
+        <h2>Nossa Missão</h2>
+        <p>Acreditamos que os pets são membros importantes da família, e é por isso que nossa missão é garantir que eles recebam o melhor cuidado possível. Queremos que você tenha a certeza de que, ao confiar no <strong>PetShop</strong>, está dando ao seu pet produtos de alta qualidade e o melhor atendimento veterinário e de cuidados pessoais.</p>
+    
+        <h2>O que Oferecemos</h2>
+        <ul>
+            <li><strong>Produtos de Qualidade:</strong> Trabalhamos com as melhores marcas do mercado, oferecendo rações, brinquedos, acessórios e produtos de higiene que garantem o bem-estar do seu pet.</li>
+            <li><strong>Banho e Tosa:</strong> Nossa equipe de profissionais qualificados cuida do seu pet com todo carinho, proporcionando uma experiência tranquila e agradável durante o banho e tosa.</li>
+            <li><strong>Serviços Veterinários:</strong> Nosso time de veterinários está sempre pronto para atender as necessidades de saúde do seu pet, seja em consultas de rotina ou tratamentos mais específicos.</li>
+            <li><strong>Castração e Vacinação:</strong> Oferecemos serviços de castração e vacinação para garantir que seu pet esteja saudável e protegido.</li>
+        </ul>
+    
+        <h2>Nossa Visão</h2>
+        <p>Nosso objetivo é continuar crescendo e inovando, sempre em busca das melhores práticas para o cuidado de animais. A cada dia, nos esforçamos para ser um espaço de confiança, onde você e seu pet possam contar com serviços e produtos de alta qualidade.</p>
+    
+        <h2>Por que Escolher o PetShop?</h2>
+        <ul>
+            <li><strong>Atendimento Especializado:</strong> Nossa equipe é apaixonada por animais e está sempre pronta para atender você e seu pet com simpatia e profissionalismo.</li>
+            <li><strong>Ambiente Amigável:</strong> Criamos um espaço onde seu pet se sente confortável e seguro.</li>
+            <li><strong>Responsabilidade e Transparência:</strong> Atuamos com responsabilidade em cada serviço que prestamos, e acreditamos na transparência em todas as nossas relações com os clientes.</li>
+        </ul>
+    
+        <h2>Venha Nos Visitar</h2>
+        <p>Estamos localizados em [Endereço], e nossa equipe está pronta para receber você e seu pet. Venha conhecer nossa loja, nossa gama de produtos e aproveitar todos os serviços que oferecemos para manter seu pet saudável e feliz.</p>
+    
+        <h2>Contato</h2>
+        <p>Caso tenha dúvidas ou precise de mais informações, entre em contato conosco através do telefone (47)99686-2450 ou envie um e-mail para PetShop@gmail.com. Ficaremos felizes em ajudar!</p>
+    </div>
+
+
+      <footer class="bg-light py-4 mt-5">
+        <div class="container">
+            <p>&copy; 2024 PetShop. Todos os direitos reservados.</p>
+            <nav>
+                <ul class="list-unstyled d-flex justify-content-center">
+                    <li class="me-4"><a href="sobre.html" class="text-decoration-none">Sobre nós</a></li>
+                    <li class="me-4"><a href="contato.html" class="text-decoration-none">Contato</a></li>
+                    <li><a href="politica.html" class="text-decoration-none">Política de Privacidade</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+
+ <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ 
+ <!-- Ícones do Bootstrap --> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</body>
+</html>

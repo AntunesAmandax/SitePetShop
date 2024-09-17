@@ -1,0 +1,132 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #b3d1e6; /* Tom claro e suave de azul */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #002f4b; /* Azul escuro */
+    font-size: 36px;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f0f4f8;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #002f4b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff7043; /* Laranja suave para o hover */
+}
+
+/* Seção de Produtos */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distribui os produtos de forma uniforme */
+    padding: 20px;
+}
+
+.product-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 10px;
+    width: 200px; /* Largura fixa para cada produto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.product-item img {
+    width: 100%; /* Ajusta a imagem para a largura do contêiner */
+    height: auto;
+}
+
+.product-item h2 {
+    font-size: 18px;
+    color: #002f4b;
+    text-align: center;
+}
+
+.product-item p {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+.product-item span {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #ff7043;
+}
+
+.product-item:hover {
+    transform: scale(1.05); /* Pequena animação ao passar o mouse */
+}
+
+/* Seção de Agendamento */
+.form-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.form-section h2 {
+    font-size: 24px;
+    color: #002f4b;
+    text-align: center;
+}
+
+.form-section label {
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+}
+
+.form-section input, .form-section select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.form-section input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.form-section input[type="submit"]:hover {
+    background-color: #45a049;
+}
